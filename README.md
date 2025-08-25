@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster Games*
 
-Submitted by: **Your Name Here**
+Submitted by: **Sean Emede**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Games** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
@@ -17,13 +17,14 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] A navbar has been included to make navigating the page easier. "About" takes you to the website description, "Stats" takes you to the website and contribution statistics, "Games" takes you to the current library of games
+* [ ] The Show Unfunded Only, Show Funded Only, and Show All Games buttons now have box shadow glow when hovered over
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://www.loom.com/share/a53ebd5be6304be3b0fd68edf9b64946?sid=cb03fc3a-1395-4302-a48f-489632a6b904' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -34,11 +35,13 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Getting the games cards to display was an issue. Making sure they populated the right way was a bit difficult as it required calling on the id in the document which I forgot how to do at first. 
+
+Making use of the ternary operator was awkward at first because I had to ensure the syntax was correct and it got slightly confusing since I had to include a sentence while writing that specific line of code. Also understanding what part of the if-statement went where while using the operator.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Sean Emede]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

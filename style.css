@@ -21,6 +21,19 @@ body {
 
 .stats-container {
     display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#unfunded-btn:hover, #funded-btn:hover, #all-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +85,38 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.navitems {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+ padding: 1%;
+    margin: 1%;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  flex-wrap: wrap;
+
+  li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 10px 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #a8b0bc;
+    border-radius: 7px;
+  }
+
+  li a:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+  }
+
+  li {
+    float: left;
+  }
+
+  
 }
